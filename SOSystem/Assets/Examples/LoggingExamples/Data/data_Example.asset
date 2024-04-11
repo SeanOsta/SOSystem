@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c2ef098b87d9bd498db4768491ec4d4, type: 3}
+  m_Name: data_Example
+  m_EditorClassIdentifier: 
+  m_DebugStackTraceOnValueChange: 1
+  m_KeepPlayModeChanges: 0
+  m_Data: Data before
+  m_OnValueChange: {fileID: 2112563030652061217}
+--- !u!114 &2112563030652061217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d03c33fa190ea044a8e36b079a10ea7, type: 3}
+  m_Name: data_Example_Event
+  m_EditorClassIdentifier: 

@@ -1,0 +1,16 @@
+{
+    "name": "SOSystem.Editor",
+    "rootNamespace": "SOSystem",
+    "references": [
+        "GUID:d305d4ee5bb5d7a44bdca91898344786"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
