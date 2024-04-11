@@ -1,4 +1,5 @@
 using UnityEditor;
+using UnityEngine;
 
 namespace SOSystem
 {
@@ -17,7 +18,7 @@ namespace SOSystem
         [MenuItem(FULL_PATH, validate = true)]
         private static bool ValidateSearchSOReferences()
         {
-            return Selection.objects.Length == 1 && Selection.activeObject.GetType().IsSubclassOf(typeof(Data.SOBaseData));
+            return Selection.objects.Length == 1 && Selection.activeObject.GetType().IsSubclassOf(typeof(ScriptableObject));
         }
     }
 }
